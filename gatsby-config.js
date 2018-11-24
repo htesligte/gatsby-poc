@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `ENTER_SPACEID_HERE`,
-        accessToken: 'ENTER_ACCESS_TOKEN_HERE'
+        accessToken: `ENTER_ACCESS_TOKEN_HERE`
       }
     },
     {
@@ -17,6 +17,7 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography.js`
       }
-    }
+    },
+    `gatsby-transformer-remark`
   ],
 }
