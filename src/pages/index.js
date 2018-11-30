@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
     <h1>Hi people</h1>
     <p>
-      You should <Link to="/app/login">log in</Link> to see restricted content
+      Go to <Link to="/app/blogs">Blogs</Link> to see the India blogs.
     </p>
   </Layout>
 )

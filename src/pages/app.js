@@ -1,21 +1,23 @@
 import React from "react"
-import { Router } from "@reach/router"
+import { Router, Route } from "react-router-dom"
 import Layout from "../components/layout"
-import PrivateRoute from "../components/privateRoute"
-import Profile from "../components/profile"
-import Login from "../components/login"
 import Blogs from "../components/blogs"
-import Orders from "../components/orders"
+import createBrowserHistory from "history/createBrowserHistory"
+
+const history = createBrowserHistory();
+
+history.listen(() => {
+    console.log("Yo.");
+})
 
 const App = () => (
-    <Layout>
-        <Router>
-            <PrivateRoute path="/app/profile" component={Profile} />
-            <Login path="/app/login" />
-            <Blogs path="/app/blogs" />
-            <Orders path="/app/orders" />
-        </Router>
-    </Layout>
+        <Layout>
+                <Router history={history}>
+                    <>
+                        <Route path="/app/blogs" component={Blogs} />
+                    </>
+                </Router>
+        </Layout>
 )
 
 export default App

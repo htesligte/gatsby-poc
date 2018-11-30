@@ -17,10 +17,13 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.12",
     "gatsby-transformer-sharp": "^2.1.8",
+    "history": "^4.7.2",
     "qs": "^6.5.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-ga": "^2.5.6",
     "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.3.1",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-ocean-beach": "^0.15.11"

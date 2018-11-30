@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'POC Dynamic & Static content in Gatsby',
+    title: 'Blogs about recent India trip',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

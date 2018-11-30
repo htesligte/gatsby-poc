@@ -26,8 +26,6 @@ export default () => {
                 {` `}
                 <Link to="/app/blogs">Blogs</Link>
                 {` `}
-                <Link to="/app/profile">Profile</Link>
-                {` `}
                 {isLoggedIn() ? (
                     <>
                     <Link to="/app/orders">Orders</Link>
